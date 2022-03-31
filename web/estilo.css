@@ -10,5 +10,24 @@
 .tipo_iris_class {
     background-color: aliceblue;
     font-family: Arial, Helvetica, sans-serif;
+}
 
+#lista1 li {
+    display:inline;
+    padding-left:3px;
+    padding-right:3px;
+}
+#Setosa {
+    margin: 50px;
+}
+#Virginica {
+    margin: 150px;
+}
+#Versicolor {
+    margin: 50px;
+}
+#image_iris_tipo {
+    margin: 50px;
+    width: 700px;
+    display:block;  
 }
