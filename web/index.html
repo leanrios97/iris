@@ -5,23 +5,39 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Clasificador iris</title>
-    <link rel="stylesheet" href="estilo.css">
+    <link rel="stylesheet" href="estilo_index.css">
 </head>
 
 <body>
     <div id="cabecera">
         <h1>Clasificador de flores Iris</h1>
     </div>
+        <nav class="menuCSS3">
+            <ul>
+                <button id="inicio" onclick="inicio()">
+                    <li>
+                        <a href="index.html"> Inicio </a>
+                    </li>
+                </button>
+                <button id="clasificador" onclick="clasificador()">
+                    <li>
+                        <a href="clasificador.html" > Clasificador </a> 
+                    </li>
+                </button>
+                
+                <button id="nuevo dato" onclick="nuevo_dato()">
+                    <li>
+                        <a href="nuevo_dato.html"> Nuevo dato </a>
+                    </li>
+                </button>
+            </ul>
+        </nav>
     <div class="tipo_iris_class"> 
         <p id="tipo_iris">Con esta aplicacion vamos a poder clasificar 3 tipos de flores iris:
-            <li>Setosa</li>
-            <li>Virginica</li>
-            <li>Versicolor</li>
-            <img id= "image_iris_tipo" src="C:\Users\lrios\Desktop\iris\data/tipos de flor.png" alt="Tipos de flor">
+            <img id= "image_iris_tipo" src="C:\Users\ACER\Desktop\iris\data\tipos de flor.png" alt="Tipos de flor">
         </p>
-        <p id="parametros_iris"> Nos vamos a fijar en el largo y ancho de los petalos y de la sépalo</p>   
-        <img src="C:\Users\lrios\Desktop\iris\data/datos de la flor.png" alt="iris_variable">
-        
+        <p id="parametros_iris"> Nos vamos a fijar en el largo y ancho de los petalos y de el sépalo</p>   
+        <img id="image_parametros_iris" src="C:\Users\ACER\Desktop\iris\data\datos de la flor.png" alt="iris_variable">
     </div>
 </body>
 </html>
