@@ -5,8 +5,57 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Clasificador iris</title>
+    <link rel="stylesheet" href="estilo_clasificador.css">
 </head>
 <body>
-    <h1>Proximamente!!</h1>
+    <div></div>
+        <nav class="menuCSS3">
+            <ul>
+                <button id="inicio" onclick="inicio()">
+                    <li>
+                        <a href="index.html"> Inicio </a>
+                    </li>
+                </button>
+                
+                <button id="clasificador" onclick="clasificador()">
+                    <li>
+                        <a href="clasificador.html" > Clasificador </a> 
+                    </li>
+                </button>
+                
+                <button id="nuevo dato" onclick="nuevo_dato()">
+                    <li>
+                        <a href="nuevo_dato.html"> Nuevo dato </a>
+                    </li>
+                </button>
+            </ul>
+        </nav>
+    
+    <h1>Clasificador de la flor Iris</h1>
+    
+    <form action="/my-handling-form-page" method="post">
+        <ul>
+            <li>
+                <label for="sepal.length">Longitud del sépalo:</label>
+                <input type="number" id="name" name="user_name" step="any"step=".01"> 
+            </li>
+
+            <li>
+                <label for="sepal.width">Anchura del sépalo:</label>
+                <input type="number" id="mail" name="user_mail" step="any"step=".01">
+            </li>
+            <li>
+                <label for="petal.length">Longitud del pétalo:</label>
+                <input type="number" id="petal.length" name="petal_length" step="any"step=".01">
+            </li>
+            <li>
+                <label for="petal.width">Ancho de pétalo:</label>
+                <input type="number" id="petal.widthh" name="petal_width" step="any"step=".01">
+            </li>
+            <li class="button">
+                <button type="submit">Envíe su mensaje</button>
+            </li>
+        </ul>
+       </form>
 </body>
 </html>
