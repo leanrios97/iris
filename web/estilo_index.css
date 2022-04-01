@@ -1,0 +1,49 @@
+#cabecera {
+    font-family: Arial, Helvetica, sans-serif;
+    color: whitesmoke;
+    text-align: center;
+    background-color: black;
+    font-size: 25px;
+}
+
+.tipo_iris_class {
+    background-color: aliceblue;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+
+#image_iris_tipo {
+    margin: 50px;
+    width: 800px;
+    display:block;  
+}
+
+#image_parametros_iris {
+    margin: 50px;
+    width: 300px;
+    display:block;
+}
+
+.menuCSS3 ul {
+    display: flex;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+.menuCSS3 a {
+    display: block;
+    padding: 2em;
+    background-color: #F9B53C;
+    text-decoration: none;
+    color: #191C26;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.menuCSS3 a:hover {
+    background-color: #CC673B;
+}
+.menuCSS3 ul li ul {
+    display: none;
+}
+.menuCSS3 ul li a:hover + ul, .menuCSS3 ul li ul:hover {
+    display: block;
+}
